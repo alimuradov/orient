@@ -50,7 +50,7 @@ body {
   font-family: 'Arial';
   font-size: 13px;
   background-color: #f5f5f5;
-  height: 3000px;
+  height: 5000px;
 }
 header .header-head {
   background-color: #f7f7f7;
@@ -628,4 +628,50 @@ header .header-slider .peppermint figure .peppermint-data p {
 }
 .home-company .home-company-wrapper .home-company-wrapper-link a:hover {
   color: #888;
+}
+/* Подбор кухни */
+.home-select {
+  background-color: #fff;
+}
+.home-select .home-select-wrapper {
+  width: 1200px;
+  margin: auto;
+  padding: 100px 0;
+  text-align: center;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.home-select .home-select-wrapper .home-select-wrapper-head {
+  font-family: 'Open Sans';
+  font-size: 36px;
+  line-height: 50px;
+  display: block;
+  text-align: center;
+  -webkit-font-smoothing: antialiased;
+  -moz-font-smoothing: antialiased;
+  -ms-font-smoothing: antialiased;
+  -o-font-smoothing: antialiased;
+  font-smoothing: antialiased;
+  -webkit-backface-visibility: hidden;
+  -moz-backface-visibility: hidden;
+  -ms-backface-visibility: hidden;
+}
+.home-select .home-select-wrapper .home-select-wrapper-tabs {
+  display: inline-block;
+  margin: 20px auto;
+  width: auto;
+}
+.home-select .home-select-wrapper .home-select-wrapper-tabs label {
+  padding: 10px 20px;
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 500;
+  border: 1px solid transparent;
+  border-radius: 30px;
+  text-align: center;
+}
+.home-select .home-select-wrapper .home-select-wrapper-tabs label.active {
+  border-color: #875d26;
+  color: #875d26;
 }
