@@ -696,6 +696,9 @@ header .header-slider .peppermint figure .peppermint-data p {
   max-width: 1000px;
   margin: auto;
 }
+.home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item {
+  position: relative;
+}
 .home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item .swiper-container .swiper-wrapper .swiper-slide {
   height: 488px;
   background-color: #333;
@@ -732,20 +735,10 @@ header .header-slider .peppermint figure .peppermint-data p {
   z-index: 5;
 }
 .home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item .swiper-button-next {
-  position: absolute;
-  top: 50%;
-  width: 27px;
-  height: 44px;
-  margin-top: -22px;
-  z-index: 10;
-  cursor: pointer;
-  -moz-background-size: 27px 44px;
-  -webkit-background-size: 27px 44px;
-  background-size: 27px 44px;
-  background-position: center;
-  background-repeat: no-repeat;
-  left: 10px;
-  right: auto;
+  right: -50px;
+}
+.home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item .swiper-button-prev {
+  left: -50px;
 }
 .home-select .home-select-wrapper .home-select-wrapper-data {
   display: -webkit-flex;

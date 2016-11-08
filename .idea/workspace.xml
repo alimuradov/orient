@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ee05fe70-b659-4d25-b6a3-cbaf14079819" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/public/js/swiper.js" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/index.html" afterPath="$PROJECT_DIR$/index.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/watcherTasks.xml" afterPath="$PROJECT_DIR$/.idea/watcherTasks.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/plugin/swiper.css" afterPath="$PROJECT_DIR$/public/css/plugin/swiper.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.css" afterPath="$PROJECT_DIR$/public/css/style.css" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/css/style.less" afterPath="$PROJECT_DIR$/public/css/style.less" />
     </list>
@@ -167,11 +164,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="style.less" pinned="false" current-in-tab="true">
+      <file leaf-file-name="style.less" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/css/style.less">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="364">
-              <caret line="707" column="29" selection-start-line="707" selection-start-column="29" selection-end-line="707" selection-end-column="29" />
+            <state relative-caret-position="380">
+              <caret line="708" column="27" selection-start-line="708" selection-start-column="9" selection-end-line="708" selection-end-column="27" />
               <folding>
                 <element signature="e#493#548#0" expanded="false" />
                 <element signature="e#555#646#0" expanded="false" />
@@ -248,9 +245,23 @@
                 <element signature="e#12967#13099#0" expanded="false" />
                 <element signature="e#13046#13089#0" expanded="false" />
                 <element signature="e#13114#13225#0" expanded="false" />
-                <element signature="e#13412#14692#0" expanded="false" />
-                <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-                <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+                <element signature="e#13440#14720#0" expanded="false" />
+                <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+                <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="swiper.css" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/public/css/plugin/swiper.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="397">
+              <caret line="154" column="259" selection-start-line="154" selection-start-column="259" selection-end-line="154" selection-end-column="259" />
+              <folding>
+                <element signature="e#3671#3929#2" expanded="true" />
+                <element signature="e#4093#4351#2" expanded="true" />
+                <element signature="e#4482#4740#2" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -270,9 +281,9 @@
         <option value="$PROJECT_DIR$/public/css/style.css" />
         <option value="$PROJECT_DIR$/index.html" />
         <option value="$PROJECT_DIR$/public/js/swipper.js" />
-        <option value="$PROJECT_DIR$/public/css/plugin/swiper.css" />
         <option value="$PROJECT_DIR$/index.php" />
         <option value="$PROJECT_DIR$/public/css/style.less" />
+        <option value="$PROJECT_DIR$/public/css/plugin/swiper.css" />
       </list>
     </option>
   </component>
@@ -470,12 +481,12 @@
       <workItem from="1478431340810" duration="53000" />
       <workItem from="1478432681907" duration="2895000" />
       <workItem from="1478436819032" duration="171000" />
-      <workItem from="1478596314422" duration="9137000" />
+      <workItem from="1478596314422" duration="9366000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="28442000" />
+    <option name="totallyTimeSpent" value="28671000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
@@ -733,9 +744,9 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -956,9 +967,9 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1179,9 +1190,9 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1402,9 +1413,9 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1625,9 +1636,9 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
           </folding>
         </state>
       </provider>
@@ -1676,23 +1687,6 @@
         <state relative-caret-position="272">
           <caret line="17" column="43" selection-start-line="17" selection-start-column="43" selection-end-line="17" selection-end-column="43" />
           <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/public/css/plugin/swiper.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="873">
-          <caret line="574" column="1" selection-start-line="574" selection-start-column="1" selection-end-line="574" selection-end-column="1" />
-          <folding>
-            <element signature="e#3671#3929#2" expanded="false" />
-            <element signature="e#4093#4351#2" expanded="false" />
-            <element signature="e#4482#4740#2" expanded="false" />
-            <element signature="e#4831#5089#2" expanded="false" />
-            <element signature="e#5253#5511#2" expanded="false" />
-            <element signature="e#5642#5900#2" expanded="false" />
-            <element signature="e#18104#19551#2" expanded="false" />
-            <element signature="e#19740#21184#2" expanded="false" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1839,8 +1833,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/css/style.less">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="364">
-          <caret line="707" column="29" selection-start-line="707" selection-start-column="29" selection-end-line="707" selection-end-column="29" />
+        <state relative-caret-position="380">
+          <caret line="708" column="27" selection-start-line="708" selection-start-column="9" selection-end-line="708" selection-end-column="27" />
           <folding>
             <element signature="e#493#548#0" expanded="false" />
             <element signature="e#555#646#0" expanded="false" />
@@ -1917,9 +1911,21 @@
             <element signature="e#12967#13099#0" expanded="false" />
             <element signature="e#13046#13089#0" expanded="false" />
             <element signature="e#13114#13225#0" expanded="false" />
-            <element signature="e#13412#14692#0" expanded="false" />
-            <marker date="1478607572178" expanded="false" signature="12457:13239" ph="{...}" />
-            <marker date="1478607572178" expanded="false" signature="12570:13233" ph="{...}" />
+            <element signature="e#13440#14720#0" expanded="false" />
+            <marker date="1478608946899" expanded="false" signature="12457:13239" ph="{...}" />
+            <marker date="1478608946899" expanded="false" signature="12570:13233" ph="{...}" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/css/plugin/swiper.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="397">
+          <caret line="154" column="259" selection-start-line="154" selection-start-column="259" selection-end-line="154" selection-end-column="259" />
+          <folding>
+            <element signature="e#3671#3929#2" expanded="true" />
+            <element signature="e#4093#4351#2" expanded="true" />
+            <element signature="e#4482#4740#2" expanded="true" />
           </folding>
         </state>
       </provider>
