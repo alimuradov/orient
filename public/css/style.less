@@ -5,6 +5,7 @@
 /* Подключение плагинов */
 @import "plugin/mixins";
 @import "plugin/peppermint.css";
+@import "plugin/swiper.css";
 
 /* Работа с шрифтами */
 @head: 'Open Sans';
@@ -617,20 +618,169 @@ header {
     .home-select-wrapper-tabs {
       display: inline-block;
       margin: 20px auto;
+      padding-top: 20px;
       width: auto;
 
       label {
         padding: 10px 20px;
         font-family: @head;
-        font-size: 16px;
+        font-size: 18px;
         font-weight: 500;
+        color: #949494;
         border: 1px solid transparent;
         border-radius: 30px;
         text-align: center;
+        cursor: pointer;
+
+        &:hover {
+          span {
+            color: @yellow2;
+            border-bottom: 1px solid;
+          }
+        }
 
         &.active {
           border-color: @yellow2;
           color: @yellow2;
+
+          span {
+            border-bottom: 0;
+          }
+        }
+
+        span {
+          display: inline-block;
+          border-bottom: 1px dashed;
+          text-align: center;
+        }
+      }
+    }
+
+    .home-select-wrapper-block {
+      padding: 50px 0 0;
+      max-width: 1000px;
+      margin: auto;
+
+      .home-select-wrapper-block-item {
+
+        .swiper-container {
+          .swiper-wrapper {
+            .swiper-slide {
+              height: 488px;
+              background-color: #333;
+              background-size: cover;
+              background-position: center;
+              background-repeat: no-repeat;
+              position: relative;
+
+              .home-select-wrapper-block-item-name {
+                position: absolute;
+                bottom: 35px;
+                left: 40px;
+                color: #fff;
+                font-family: @head;
+                font-size: 28px;
+                font-weight: bold;
+                z-index: 5;
+                text-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+              }
+
+              .home-select-wrapper-block-item-price {
+                position: absolute;
+                bottom: 30px;
+                right: 40px;
+                color: #fff;
+                font-family: @head;
+                font-size: 22px;
+                font-weight: 500;
+                height: 36px;
+                line-height: 19px;
+                padding: 0 10px;
+                background-color: rgba(208, 149, 82, 0.85);
+                text-shadow: 0px 1px 5px rgba(0,0,0,0.4);
+                border-radius: 3px;
+                z-index: 5;
+              }
+            }
+          }
+        }
+
+        .swiper-button-next {
+          position: absolute;
+          top: 50%;
+          width: 27px;
+          height: 44px;
+          margin-top: -22px;
+          z-index: 10;
+          cursor: pointer;
+          -moz-background-size: 27px 44px;
+          -webkit-background-size: 27px 44px;
+          background-size: 27px 44px;
+          background-position: center;
+          background-repeat: no-repeat;
+          left: 10px;
+          right: auto;
+        }
+      }
+    }
+
+    .home-select-wrapper-data {
+      .flex-display;
+      max-width: 1000px;
+      margin: auto;
+      padding-top: 40px;
+
+      .home-select-wrapper-data-form {
+
+        button {
+          display: block;
+          width: 100%;
+          border-radius: 40px;
+          padding: 20px 35px;
+          font-family: @head;
+          color: #fff;
+          background-color: #704a48;
+          text-align: center;
+          border: 0;
+          font-weight: normal;
+          font-size: 16px;
+          margin-top: 10px;
+          cursor: pointer;
+          box-shadow: 0px 7px 13px -5px #704a48;
+
+          &:hover {
+            opacity: 0.9;
+          }
+        }
+
+      }
+
+      .home-select-wrapper-data-param {
+        .flex;
+        .flex-display;
+        .box;
+        padding-left: 130px;
+
+        .home-select-wrapper-data-param-item {
+          .flex;
+          text-align: left;
+
+          .home-select-wrapper-data-param-item-head {
+            font-size: 18px;
+            font-family: @head;
+            color: #666;
+            font-weight: normal;
+            margin-bottom: 14px;
+            display: block;
+          }
+
+          .home-select-wrapper-data-param-item-data {
+            font-size: 16px;
+            line-height: 24px;
+            padding-right: 70px;
+            .box;
+          }
+
         }
       }
     }
