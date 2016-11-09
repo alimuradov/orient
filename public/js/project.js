@@ -10,6 +10,7 @@ var febox = {
     ui: {
         init: function () {
             this.selectTabs();
+            this.selectTabsDesignProject();
         },
         
         /* Табы, выбор кухни или шкафа-купе */
@@ -71,8 +72,32 @@ var febox = {
                     }
                 });
             }
+        },
 
+        /* Табы дизайн-проектов */
+        selectTabsDesignProject: function () {
+            var item = document.querySelectorAll('.home-form-wrapper-form-tabs-wrapper-item'),
+                length = item.length;
 
+            /* Установка события на все элементы */
+            for (var i = 0; i < length; i++){
+                item[i].addEventListener('click', function (e) {
+
+                    /* Очистка от предыдещего активного элемента */
+                    var oldActiveElement = document.querySelector('.home-form-wrapper-form-tabs-wrapper-item.active');
+                    if (typeof oldActiveElement === 'object'){
+                        oldActiveElement.classList.remove('active');
+                    }
+
+                    /* Текущий элемент: активный */
+                    this.classList.add('active');
+                    
+                    /* Меняем изображение */
+                    document.querySelector('.home-form-wrapper-form-tabs-img').style.backgroundImage = "url(" + this.getAttribute('data-img') + ")";
+                    console.log(this.getAttribute('data-img'))
+
+                });
+            }
         }
     }
 };

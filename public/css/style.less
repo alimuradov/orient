@@ -257,6 +257,14 @@ header {
 .home-form {
   .gradient(#fff, #f5f5f5);
 
+  &.bg {
+    background: url("/public/img/fon.png");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    padding-bottom: 50px;
+  }
+
   .home-form-wrapper {
     width: @width;
     margin: auto;
@@ -270,6 +278,17 @@ header {
     text-align: center;
     display: block;
     line-height: 50px;
+    .render;
+  }
+
+  .home-form-wrapper-text {
+    font-size: 19px;
+    font-family: @head;
+    padding: 15px 0;
+    font-weight: 600;
+    color: #444;
+    text-align: center;
+    display: block;
     .render;
   }
 
@@ -306,6 +325,14 @@ header {
     padding: 60px 0;
     .box;
     .flex-display;
+
+    &.form {
+      padding: 0;
+
+      .home-form-wrapper-form-data {
+        padding: 60px 50px;
+      }
+    }
 
     .home-form-wrapper-form-data {
       width: 35%;
@@ -454,6 +481,88 @@ header {
           position: relative;
           z-index: 3;
         }
+      }
+    }
+
+    .home-form-wrapper-form-tabs {
+      width: 65%;
+      position: relative;
+
+      .home-form-wrapper-form-tabs-wrapper {
+        position: absolute;
+        left: 0;
+        top: 0;
+        width: 100%;
+        text-align: center;
+        z-index: 6;
+        padding-top: 30px;
+
+        &:after {
+          position: absolute;
+          left: 0;
+          top: 0;
+          width: 100%;
+          height: 270px;
+          content: '';
+          z-index: 6;
+          display: block;
+          .gradient(rgba(0, 0, 0, 0.75), rgba(255, 255, 255, 0));
+        }
+
+        label {
+          display: inline-block;
+          padding: 10px 20px;
+          font-family: @head;
+          font-size: 18px;
+          font-weight: 500;
+          color: rgba(255, 255, 255, 0.7);
+          border: 1px solid transparent;
+          border-radius: 30px;
+          text-align: center;
+          cursor: pointer;
+          position: relative;
+          z-index: 7;
+          .user;
+          .render;
+
+          &.active {
+            border-color: @yellow3;
+            color: @yellow3;
+
+            span {
+              border-bottom: 0;
+            }
+
+            &:hover {
+              span {
+                border-bottom: 0;
+              }
+            }
+          }
+
+          &:hover {
+            span {
+              border-bottom: 1px solid;
+            }
+          }
+
+          span {
+            display: inline-block;
+            border-bottom: 1px dashed;
+            text-align: center;
+          }
+        }
+      }
+
+      .home-form-wrapper-form-tabs-img {
+        display: block;
+        position: relative;
+        width: 100%;
+        height: 100%;
+        background-size: cover;
+        background-position: center;
+        background-repeat: no-repeat;
+        z-index: 5;
       }
     }
   }
@@ -786,6 +895,186 @@ header {
 
         }
       }
+    }
+  }
+}
+
+/* Преимущества компании */
+.home-company-top {
+
+  .home-company-top-wrapper {
+    margin: auto;
+    width: @width;
+    padding: 50px 0;
+    .box;
+
+    .home-company-top-wrapper-head {
+      font-family: @head;
+      font-size: 36px;
+      line-height: 50px;
+      display: block;
+      text-align: center;
+      color: @brown2;
+      margin-bottom: 90px;
+      .render;
+    }
+
+    .home-company-top-wrapper-data {
+      .parent;
+
+      .home-company-top-wrapper-data-item {
+        float: left;
+        width: 33.33333333%;
+        position: relative;
+        padding-right: 90px;
+        margin-bottom: 90px;
+        .box;
+
+        .home-company-top-wrapper-data-item-head {
+          position: relative;
+
+          &:after {
+            width: 48px;
+            height: 6px;
+            background-color: #fff;
+            position: absolute;
+            bottom: -20px;
+            left: 0;
+            content: '';
+            display: block;
+          }
+          svg {
+            width: 48px;
+            height: 48px;
+            background-color: @brown2;
+            position: absolute;
+            left: 0;
+            top: 0;
+            fill: #fff;
+          }
+
+          strong {
+            display: block;
+            padding-left: 65px;
+            font-family: @head;
+            font-size: 17px;
+            line-height: 48px;
+            color: @brown2;
+            text-transform: uppercase;
+            .box;
+            .render;
+          }
+        }
+
+        p {
+          font-family: @head;
+          font-size: 14px;
+          line-height: 21px;
+          padding-top: 35px;
+          padding-left: 24px;
+          color: @brown2;
+          .render;
+          .box;
+        }
+      }
+    }
+
+  }
+}
+
+/* Еще преимущества */
+.home-list {
+  background-color: #fff;
+
+  .home-list-wrapper {
+    width: @width;
+    margin: auto;
+    padding: 70px;
+    .box;
+
+    .home-list-wrapper-head {
+      font-size: 36px;
+      font-family: @head;
+      text-align: center;
+      display: block;
+      line-height: 50px;
+      margin-bottom: 50px;
+      .render;
+    }
+
+    .home-list-wrapper-data {
+      width: 1000px;
+      margin: auto;
+      .parent;
+
+      .home-list-wrapper-data-item {
+        width: 50%;
+        height: 456px;
+        float: left;
+        padding-right: 20px;
+        margin-bottom: 50px;
+        .box;
+
+        &:nth-child(2n){
+          padding-left: 20px;
+          padding-right: 0;
+        }
+
+        .home-list-wrapper-data-item-img {
+          width: 100%;
+          height: 350px;
+          position: relative;
+          background-size: cover;
+          background-position: center;
+          background-repeat: no-repeat;
+
+          .home-list-wrapper-data-item-img-head {
+            font-family: @head;
+            font-size: 25px;
+            position: absolute;
+            left: 30px;
+            bottom: 30px;
+            color: #fff;
+            .render;
+          }
+
+        }
+
+        p {
+          font-size: 16px;
+          padding: 20px 30px;
+          font-family: @head;
+          color: #666;
+          .render;
+        }
+      }
+    }
+  }
+}
+
+/* Статистика компании */
+.home-stat {
+  background-image: url("/public/img/501.jpg");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+
+  .home-stat-wrapper {
+    width: @width;
+    margin: auto;
+    padding: 70px 0;
+    height: 1000px;
+    .box;
+
+    .home-stat-wrapper-head {
+      font-size: 36px;
+      font-family: @head;
+      text-align: center;
+      display: block;
+      line-height: 50px;
+      color: @brown2;
+      .render;
+
     }
   }
 }
