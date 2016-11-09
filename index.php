@@ -1,6 +1,9 @@
 <!doctype html>
 <html>
 	<head>
+		<script src="public/js/project.js"></script>
+		<script>febox.init()</script>
+
 		<link rel="stylesheet" href="/public/css/style.css?ee=<?= rand(0, 999) ?>">
 	</head>
 	<body>
@@ -328,45 +331,79 @@
 			</div>
 		</div>
 		<div class="home-select">
+			<script src="public/js/swiper.js"></script>
+
 			<div class="home-select-wrapper">
 				<strong class="home-select-wrapper-head">Подбери мебель себе по душе</strong>
 				<div class="home-select-wrapper-tabs">
-					<label class="active"><span>Все</span></label>
-					<label><span>Кухни</span></label>
-					<label><span>Шкафы-купе</span></label>
+					<label class="home-select-wrapper-tabs-item active" data-type="Все"><span>Все</span></label>
+					<label class="home-select-wrapper-tabs-item" data-type="Кухни"><span>Кухни</span></label>
+					<label class="home-select-wrapper-tabs-item" data-type="Шкафы-купе"><span>Шкафы-купе</span></label>
 				</div>
 
 				<div class="home-select-wrapper-block">
-					<div class="home-select-wrapper-block-item">
 
-						<div class="swiper-container">
+					<div class="home-select-wrapper-block-item active" data-type="Все">
+
+						<div class="swiper-container home-select-wrapper-block-item-slider">
 							<div class="swiper-wrapper">
-								<div class="swiper-slide" style="background-image: url('/public/img/slider/1.jpg')">
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/1.jpg')" data-facade="МДФ, МДФ ПВХ, МДФ Акрил" data-color="Желтый, Черный, Белый, Синий, Красный">
 									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
 									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
 								</div>
-								<div class="swiper-slide" style="background-image: url('/public/img/slider/2.jpg')">
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/2.jpg')" data-facade="Второй, третий, четвертый" data-color="Черный, Белый, Синий, Красный">
 									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
 									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
 								</div>
 							</div>
 						</div>
-				
+
 						<div class="swiper-button-next"></div>
 						<div class="swiper-button-prev"></div>
 
 					</div>
+
+					<div class="home-select-wrapper-block-item" data-type="Кухни">
+
+						<div class="swiper-container home-select-wrapper-block-item-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/2.jpg')" data-facade="Второй, третий, четвертый" data-color="Черный, Белый, Синий, Красный">
+									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
+									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
+								</div>
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/1.jpg')" data-facade="МДФ, МДФ ПВХ, МДФ Акрил" data-color="Желтый, Черный, Белый, Синий, Красный">
+									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
+									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+
+					</div>
+
+					<div class="home-select-wrapper-block-item" data-type="Шкафы-купе">
+
+						<div class="swiper-container home-select-wrapper-block-item-slider">
+							<div class="swiper-wrapper">
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/1.jpg')" data-facade="МДФ, МДФ ПВХ, МДФ Акрил" data-color="Желтый, Черный, Белый, Синий, Красный">
+									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
+									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
+								</div>
+								<div class="swiper-slide" style="background-image: url('/public/img/slider/2.jpg')" data-facade="Второй, третий, четвертый" data-color="Черный, Белый, Синий, Красный">
+									<div class="home-select-wrapper-block-item-name">Массив Бук. Тип 5</div>
+									<div class="home-select-wrapper-block-item-price">от 7 200 руб. за м<sup><small>2</small></sup></div>
+								</div>
+							</div>
+						</div>
+
+						<div class="swiper-button-next"></div>
+						<div class="swiper-button-prev"></div>
+
+					</div>
+
 				</div>
-				<script src="public/js/swiper.js"></script>
-				<script>
-					var swiper = new Swiper('.swiper-container', {
-						pagination: '.swiper-pagination',
-						paginationClickable: true,
-						nextButton: '.swiper-button-next',
-						prevButton: '.swiper-button-prev',
-						spaceBetween: 30
-					});
-				</script>
 
 				<div class="home-select-wrapper-data">
 					<div class="home-select-wrapper-data-form">
@@ -387,6 +424,7 @@
 						</div>
 					</div>
 				</div>
+
 			</div>
 		</div>
 	</body>

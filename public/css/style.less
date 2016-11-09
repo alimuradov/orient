@@ -631,6 +631,8 @@ header {
         border-radius: 30px;
         text-align: center;
         cursor: pointer;
+        display: inline-block;
+        .user;
 
         &:hover {
           span {
@@ -660,9 +662,18 @@ header {
       padding: 50px 0 0;
       max-width: 1000px;
       margin: auto;
+      position: relative;
 
       .home-select-wrapper-block-item {
         position: relative;
+        visibility: hidden;
+        height: 0;
+
+
+        &.active {
+          visibility: visible;
+          height: auto;
+        }
 
         .swiper-container {
           .swiper-wrapper {

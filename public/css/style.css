@@ -674,6 +674,11 @@ header .header-slider .peppermint figure .peppermint-data p {
   border-radius: 30px;
   text-align: center;
   cursor: pointer;
+  display: inline-block;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
 }
 .home-select .home-select-wrapper .home-select-wrapper-tabs label:hover span {
   color: #875d26;
@@ -695,9 +700,16 @@ header .header-slider .peppermint figure .peppermint-data p {
   padding: 50px 0 0;
   max-width: 1000px;
   margin: auto;
+  position: relative;
 }
 .home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item {
   position: relative;
+  visibility: hidden;
+  height: 0;
+}
+.home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item.active {
+  visibility: visible;
+  height: auto;
 }
 .home-select .home-select-wrapper .home-select-wrapper-block .home-select-wrapper-block-item .swiper-container .swiper-wrapper .swiper-slide {
   height: 488px;
