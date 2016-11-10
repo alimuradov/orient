@@ -743,9 +743,152 @@
 		</div>
 		<div class="home-stat">
 			<div class="home-stat-wrapper">
-				<strong class="home-stat-wrapper-head"></strong>
+				<strong class="home-stat-wrapper-head">Мы гордимся своей работой</strong>
+				<div class="home-stat-wrapper-wrapper">
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">5,2</div>
+						<span>лет средний <br>опыт работы <br>специалистов</span>
+					</div>
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">15</div>
+						<span>лет срок<br> эксплуатации <br>наших кухонь</span>
+					</div>
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">72</div>
+						<span>дизайнеров в <br>штате</span>
+					</div>
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">108</div>
+						<span>сотрудников в <br>штате</span>
+					</div>
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">2008</div>
+						<span>год основания <br>компании</span>
+					</div>
+					<div class="home-stat-wrapper-wrapper-item">
+						<div class="home-stat-wrapper-wrapper-item-circle">4000</div>
+						<span>образцов <br>фасадов</span>
+					</div>
+				</div>
+
+				<div class="home-stat-wrapper-product">
+
+					<div class="home-stat-wrapper-product-slider">
+						<div class="home-stat-wrapper-product-slider-img">
+							<div class="home-stat-wrapper-product-slider-img-block" style="background-image: url('/public/img/100.jpg')"></div>
+						</div>
+						<div class="home-stat-wrapper-product-slider-data">
+							<strong class="home-stat-wrapper-product-slider-data-head">Выберите <br>свой подарок</strong>
+							<span class="home-stat-wrapper-product-slider-data-type">Подарок</span>
+
+							<div class="home-stat-wrapper-product-slider-data-list">
+								<strong class="home-stat-wrapper-product-slider-data-list-name">Немецкий кухонный смеситель</strong>
+
+								<div class="home-stat-wrapper-product-slider-data-list-price">
+									<span class="home-stat-wrapper-product-slider-data-list-price-head">Средняя цена в магазинах</span>
+									<strong>6 990 руб.</strong>
+								</div>
+
+								<div class="home-stat-wrapper-product-slider-data-list-arrow-left">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+										<path d="M15.41 16.09l-4.58-4.59 4.58-4.59L14 5.5l-6 6 6 6z"/>
+										<path d="M0-.5h24v24H0z" fill="none"/>
+									</svg>
+								</div>
+								<div class="home-stat-wrapper-product-slider-data-list-arrow-right">
+									<svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24">
+										<path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/>
+										<path d="M0-.25h24v24H0z" fill="none"/>
+									</svg>
+								</div>
+							</div>
+							<div class="home-stat-wrapper-product-slider-data-button">
+								<button>Получить подарок</button>
+								<div>
+									<a href="#">Подробнее об условиях акции</a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
 			</div>
 		</div>
+		<div class="home-steep">
+			<div class="home-steep-wrapper">
+				<strong class="home-steep-wrapper-head">Узнайте, как вы получите свою<br> дизйнерскую кухню на долгие годы</strong>
+				<div class="home-steep-wrapper-name">
+					<span>1-й</span>
+					<strong>Этап работы <svg xmlns="http://www.w3.org/2000/svg" fill="#000000" height="24" viewBox="0 0 24 24" width="24"><path d="M8.59 16.34l4.58-4.59-4.58-4.59L10 5.75l6 6-6 6z"/><path d="M0-.25h24v24H0z" fill="none"/></svg></strong>
+				</div>
+
+				<div class="home-steep-wrapper-data">
+					<div class="home-steep-wrapper-data-head">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" viewBox="0 0 504.065 504.065" style="enable-background:new 0 0 504.065 504.065;" xml:space="preserve"><path style="fill:#BF392B;" d="M41.493,281.6l45.686-79.951c4.726-8.271,15.36-11.028,23.631-6.302l337.132,196.529  c8.271,4.726,11.028,15.36,6.302,23.631l-45.686,79.951c-4.726,8.271-15.36,11.028-23.631,6.302L47.794,305.231  C39.523,300.505,36.767,289.871,41.493,281.6z"/><path style="fill:#AC3327;" d="M87.573,203.225l-0.788-0.788l-9.058,16.148l258.757,230.794  C336.483,449.378,87.573,203.225,87.573,203.225z"/><path style="fill:#D6D6D6;" d="M408.557,495.458l45.686-79.951c4.726-8.271,1.969-18.905-6.302-23.631L341.21,329.649  l-66.56,107.914l110.277,64.197C393.197,506.486,403.831,503.729,408.557,495.458z"/><path style="fill:#CACACA;" d="M293.554,406.843l-1.969,2.757l44.505,39.778L293.554,406.843z"/><path style="fill:#E2574C;" d="M87.573,179.2l64.591-64.197c6.695-6.695,17.723-6.695,24.418,0l274.905,272.148  c6.695,6.695,6.695,17.329,0,24.025l-64.591,64.197c-6.695,6.695-17.723,6.695-24.418,0L87.573,203.225  C80.877,196.529,80.877,185.895,87.573,179.2z"/><path style="fill:#CB4E44;" d="M147.831,119.335l-14.966,14.572l173.292,259.938C306.157,393.846,147.831,119.335,147.831,119.335z"/><path style="fill:#E0E0E0;" d="M451.486,411.175c6.695-6.695,6.695-17.329,0-24.025l-93.342-92.16l-89.797,87.04l94.129,93.342  c6.695,6.695,17.723,6.695,24.418,0C386.896,475.372,451.486,411.175,451.486,411.175z"/><path style="fill:#D07C40;" d="M154.133,95.705l79.951-46.08c8.271-4.726,18.905-1.969,23.631,6.302L453.85,396.209  c4.726,8.271,1.969,18.905-6.302,23.631l-79.951,46.08c-8.271,4.726-18.905,1.969-23.631-6.302L147.831,119.335  C143.105,111.065,145.862,100.431,154.133,95.705z"/><path style="fill:#D1D1D1;" d="M288.04,362.732l-1.575,1.575l19.692,29.538L288.04,362.732z"/><path style="fill:#EBEBEB;" d="M367.991,466.314l79.951-46.08c8.271-4.726,11.028-15.36,6.302-23.631l-68.529-118.942  l-108.308,66.954l66.56,115.397C349.087,468.283,359.72,471.04,367.991,466.314z"/><path style="fill:#BB6F39;" d="M240.779,56.714c-0.788-3.151-0.788-6.302,0-9.452c-2.363,0.394-4.332,1.182-6.695,2.363  l-16.148,9.452L329,382.031L240.779,56.714z M367.203,439.532h0.788v-0.394L367.203,439.532z"/><path style="fill:#DBDBDB;" d="M367.203,439.532h0.788v-0.394L367.203,439.532z M312.853,322.56l-3.545,2.363L329,382.031  L312.853,322.56z"/><path style="fill:#F4B459;" d="M252.594,35.84l89.009-23.631c9.058-2.363,18.511,2.757,21.268,11.815L464.09,395.815  c2.363,9.058-3.151,18.511-12.209,20.874l-89.009,23.631c-9.058,2.363-18.511-2.757-21.268-11.815L240.779,56.714  C238.022,47.655,243.536,38.203,252.594,35.84z"/><path style="fill:#EFC75E;" d="M362.871,0h81.526c11.422,0,20.48,9.058,20.48,20.48v384.394c0,11.422-9.058,20.48-20.48,20.48  h-81.526c-11.422,0-20.48-9.058-20.48-20.48V20.48C342.391,9.058,351.45,0,362.871,0z"/><path style="fill:#E6E6E6;" d="M308.52,306.806l33.083,121.698c2.363,9.058,11.815,14.572,21.268,11.815l89.009-23.631  c9.059-2.363,14.572-11.815,12.209-20.874l-33.083-120.123L308.52,306.806z"/><path style="fill:#DBA250;" d="M342.391,20.48c0-3.151,0.788-5.908,1.969-8.271c-0.788,0-1.969,0-2.757,0.394l-20.874,5.514  l21.662,313.895V20.48z"/><path style="fill:#EFEFEF;" d="M342.391,275.298v129.575c0,11.422,9.058,20.48,20.48,20.48h81.526c11.422,0,20.48-9.058,20.48-20.48  V275.298H342.391z"/><path style="fill:#DDDDDD;" d="M342.391,298.142l-2.363,0.788l2.363,33.083V298.142z"/><path style="fill:#BFBFBF;" d="M362.083,295.385v19.692h66.954v-19.692H362.083z M362.083,397.785h27.569V385.97h-27.569V397.785z   M362.083,370.215h27.569V358.4h-27.569V370.215z M362.083,342.646h27.569v-11.815h-27.569V342.646z M431.007,378.092  c5.514,0,9.846,4.332,9.846,9.846s-4.332,9.846-9.846,9.846s-9.846-4.332-9.846-9.846  C421.16,382.425,425.493,378.092,431.007,378.092z"/></svg>
+						<strong>Выезд<br>дизайнера</strong>
+					</div>
+					<div class="home-steep-wrapper-data-wrapper">
+						<ul>
+							<li>Дизайнер вместе с вами выберет стиль будующей кухни, ответит на любые вопросы</li>
+							<li>Вы сможете выбрать из 3865 цветов фасадов, 110 витражей, 10 пород дерева и многого другого</li>
+							<li>Вам будет предоставлен предварительный расчет стоимости и сроков</li>
+						</ul>
+						<div class="home-steep-wrapper-data-wrapper-img">
+							<div class="home-steep-wrapper-data-wrapper-img-block" style="background-image: url('/public/img/1010.jpg')"></div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+		<div class="home-map">
+			<strong class="home-map-head">Наш офис в Москве</strong>
+			<div class="home-map-wrapper">
+				<script type="text/javascript" charset="utf-8" async src="https://api-maps.yandex.ru/services/constructor/1.0/js/?sid=KviddCVBZNN7ZBtPO602I0MZlIFJlatQ&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;sourceType=constructor&amp;scroll=true"></script>
+			</div>
+		</div>
+
+		<footer>
+			<div class="footer-wrapper">
+				<div class="footer-wrapper-link">
+					<a href="#">О компании</a>
+					<a href="#">Кухни</a>
+					<a href="#">Шкафы-купе</a>
+					<a href="#">Материалы</a>
+					<a href="#">Оплата и доставка</a>
+					<a href="#">Контакты</a>
+				</div>
+				<div class="footer-wrapper-contact">
+					<a href="#">Перезвоните мне</a>
+				</div>
+			</div>
+			<div class="footer-data">
+				<div class="footer-data-logo">
+					<strong>Ориент</strong>
+					<span>Мебельные решения</span>
+
+					<p>© 2004-2016</p>
+
+					<div class="header-head-wrapper-contact-social">
+						<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" version="1.1" id="Layer_1" x="0px" y="0px" width="512px" height="512px" viewBox="0 0 169.063 169.063" style="enable-background:new 0 0 169.063 169.063;" xml:space="preserve"><g><path d="M122.406,0H46.654C20.929,0,0,20.93,0,46.655v75.752c0,25.726,20.929,46.655,46.654,46.655h75.752   c25.727,0,46.656-20.93,46.656-46.655V46.655C169.063,20.93,148.133,0,122.406,0z M154.063,122.407   c0,17.455-14.201,31.655-31.656,31.655H46.654C29.2,154.063,15,139.862,15,122.407V46.655C15,29.201,29.2,15,46.654,15h75.752   c17.455,0,31.656,14.201,31.656,31.655V122.407z" fill="#FFFFFF"></path><path d="M84.531,40.97c-24.021,0-43.563,19.542-43.563,43.563c0,24.02,19.542,43.561,43.563,43.561s43.563-19.541,43.563-43.561   C128.094,60.512,108.552,40.97,84.531,40.97z M84.531,113.093c-15.749,0-28.563-12.812-28.563-28.561   c0-15.75,12.813-28.563,28.563-28.563s28.563,12.813,28.563,28.563C113.094,100.281,100.28,113.093,84.531,113.093z" fill="#FFFFFF"></path><path d="M129.921,28.251c-2.89,0-5.729,1.17-7.77,3.22c-2.051,2.04-3.23,4.88-3.23,7.78c0,2.891,1.18,5.73,3.23,7.78   c2.04,2.04,4.88,3.22,7.77,3.22c2.9,0,5.73-1.18,7.78-3.22c2.05-2.05,3.22-4.89,3.22-7.78c0-2.9-1.17-5.74-3.22-7.78   C135.661,29.421,132.821,28.251,129.921,28.251z" fill="#FFFFFF"></path></g></svg>
+						<strong>Мы в instagram</strong>
+					</div>
+				</div>
+				<div class="footer-data-contact">
+					<span>тел.: +7 (495) 933-10-55,</span>
+					<span>Москва, Бережковская набережная,</span>
+					<span>д. 16а, БЦ «Riverside Stadion»</span>
+				</div>
+				<div class="footer-data-febox">
+					<div class="footer-content-de-febox">
+						<a href="https://febox.ru" target="_blank">
+							<svg viewBox="0 0 116.2 116.2"><path class="st0" d="M0,0v116.2h116.2V0H0z M46.5,63h-15v11.8H19.7V54.2h26.8V63z M55.2,51.5H19.7v-9h35.5V51.5z M96,74.7H60.5V54.2 h26.8V63h-15v2.7H96V74.7z M95.5,51.5H60v-9h35.5V51.5z"></path></svg>
+							<span><i>Разработка сайта</i><b></b></span>
+						</a>
+
+						<span>Все материалы сайта являются объектами авторского права</span>
+					</div>
+				</div>
+			</div>
+		</footer>
 	</body>
 </html>
  
