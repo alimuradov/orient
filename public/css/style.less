@@ -20,6 +20,7 @@
 @yellow: #945f1e;
 @yellow2: #875d26;
 @yellow3: #d09552;
+@red: #e42d3f;
 
 * {
   padding: 0;
@@ -31,10 +32,19 @@ body {
   font-family: @text;
   font-size: 13px;
   background-color: #f5f5f5;
-  height: 5000px;
 }
 
 header {
+
+  &.white {
+    background-color: #fff;
+
+    .header-head {
+      background-color: #fff;
+      border-bottom: 1px solid #eee;
+      box-shadow: none;
+    }
+  }
 
   .header-head {
     background-color: #f7f7f7;
@@ -421,6 +431,17 @@ footer {
               margin: auto;
             }
           }
+        }
+
+        & > span {
+          font-size: 11px;
+          font-family: @head;
+          font-weight: 300;
+          display: block;
+          position: relative;
+          top: 30px;
+          color: #fff;
+          text-align: right;
         }
       }
 
@@ -1657,5 +1678,95 @@ footer {
   }
 }
 
+/* Страницы */
+.page {
+  background-color: #fff;
+
+  .page-wrapper {
+    width: @width;
+    margin: auto;
+    min-height: ~ "calc(100vh - 81px - 270px)";
+
+    .page-wrapper-head {
+      padding: 35px 0;
+      .box;
+
+      .page-wrapper-head-crumbs {
+        margin-bottom: 15px;
+
+        a {
+          font-family: @head;
+          font-size: 12px;
+          color: #999;
+          margin-right: 15px;
+          border-bottom: 1px solid #eee;
+          cursor: pointer;
+
+          &:hover {
+            color: red;
+          }
+        }
+      }
+
+      h1 {
+        font-family: @head;
+        text-transform: uppercase;
+        font-weight: bold;
+        font-size: 26px;
+      }
+    }
+
+    .page-wrapper-data {
+      padding: 50px 0;
+      .box;
+      .flex-display;
+
+      .page-wrapper-data-aside {
+        width: 240px;
+        padding-top: 50px;
+        position: relative;
+        .box;
+
+        &:after {
+          width: 65px;
+          height: 8px;
+          background-color: @brown2;
+          content: '';
+          display: block;
+          position: absolute;
+          left: 0;
+          top: 5px;
+        }
+
+        p {
+          font-family: @head;
+          font-size: 13px;
+          line-height: 21px;
+          font-weight: 500;
+          .box;
+        }
+
+      }
+
+      .page-wrapper-data-data {
+        .flex;
+
+        .page-wrapper-data-data-content {
+          max-width: 760px;
+        }
+
+        p {
+          font-family: @head;
+          font-size: 16px;
+          font-weight: 300;
+          line-height: 28px;
+          min-height: 18px;
+
+        }
+
+      }
+    }
+  }
+}
 
 
