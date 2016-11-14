@@ -1835,11 +1835,18 @@ footer .footer-data .footer-data-febox .footer-content-de-febox > span {
 /* Страницы */
 .page {
   background-color: #fff;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
 }
 .page .page-wrapper {
   width: 1200px;
   margin: auto;
   min-height: calc(100vh - 81px - 270px);
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-bottom: 30px;
 }
 .page .page-wrapper .page-wrapper-head {
   padding: 20px 0;
@@ -2056,4 +2063,134 @@ footer .footer-data .footer-data-febox .footer-content-de-febox > span {
   font-family: 'Open Sans';
   font-weight: 300;
   display: block;
+}
+.page .page-wrapper .page-wrapper-open {
+  width: 700px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-html {
+  padding: 40px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-html p {
+  font-family: 'Open Sans';
+  font-size: 16px;
+  font-weight: 300;
+  line-height: 28px;
+  min-height: 18px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form {
+  margin-top: 20px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form strong {
+  font-family: 'Open Sans';
+  font-size: 21px;
+  font-weight: bold;
+  margin-bottom: 15px;
+  display: block;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form p {
+  font-family: 'Open Sans';
+  font-size: 13px;
+  font-weight: 300;
+  line-height: 21px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data {
+  padding-top: 30px;
+  padding-bottom: 30px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left {
+  width: 300px;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  padding-right: 30px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left span {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+  padding: 7px 0;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left input {
+  display: block;
+  width: 100%;
+  border: 1px solid #999;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  padding: 10px;
+  font-weight: 300;
+  margin-bottom: 10px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left input:focus {
+  border-color: #d09552;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left button {
+  display: block;
+  background-color: #fff;
+  border: 1px solid #999;
+  padding: 15px;
+  text-align: center;
+  outline: none;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #d09552;
+  width: 100%;
+  cursor: pointer;
+  font-size: 16px;
+  margin-top: 43px;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-left button:hover {
+  border-color: #d09552;
+  background-color: #d09552;
+  color: #fff;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-right {
+  -webkit-flex: 1;
+  -moz-flex: 1;
+  -ms-flex: 1;
+  flex: 1;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-right span {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: 300;
+  display: block;
+  padding: 7px 0;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-right textarea {
+  resize: none;
+  display: block;
+  width: 100%;
+  border: 1px solid #999;
+  font-family: 'Open Sans';
+  font-size: 15px;
+  height: 212px;
+  padding: 10px;
+  font-weight: 300;
+  margin-bottom: 20px;
+  outline: none;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-right textarea:focus {
+  border-color: #d09552;
 }
