@@ -114,6 +114,42 @@
                         </div>
                     </div>
                 </div>
+
+                <div class="page-wrapper-open-products">
+                    <strong class="page-wrapper-open-products-head">Кухни</strong>
+                    <div class="page-wrapper-open-products-data">
+                        <div class="page-wrapper-open-products-data-item">
+                            <div class="page-wrapper-open-products-data-item-img" style="background-image: url('/public/img/product/5.jpg')"></div>
+                            <div class="page-wrapper-open-products-data-item-data">
+                                <strong>Коллекция Laravel 5.3</strong>
+                            </div>
+                        </div>
+                        <div class="page-wrapper-open-products-data-item">
+                            <div class="page-wrapper-open-products-data-item-img" style="background-image: url('/public/img/product/2.jpg')"></div>
+                            <div class="page-wrapper-open-products-data-item-data">
+                                <strong>Коллекция Laravel 5.3</strong>
+                            </div>
+                        </div>
+                        <div class="page-wrapper-open-products-data-item">
+                            <div class="page-wrapper-open-products-data-item-img" style="background-image: url('/public/img/product/4.jpg')"></div>
+                            <div class="page-wrapper-open-products-data-item-data">
+                                <strong>Коллекция Laravel 5.3</strong>
+                            </div>
+                        </div>
+                        <div class="page-wrapper-open-products-data-item">
+                            <div class="page-wrapper-open-products-data-item-img" style="background-image: url('/public/img/product/6.jpg')"></div>
+                            <div class="page-wrapper-open-products-data-item-data">
+                                <strong>Коллекция Laravel 5.3</strong>
+                            </div>
+                        </div>
+                        <div class="page-wrapper-open-products-data-item">
+                            <div class="page-wrapper-open-products-data-item-img" style="background-image: url('/public/img/product/1.jpg')"></div>
+                            <div class="page-wrapper-open-products-data-item-data">
+                                <strong>Коллекция Laravel 5.3</strong>
+                            </div>
+                        </div>
+                    </div>
+                </div>
             </div>
         </div>
         <footer>

@@ -2194,3 +2194,65 @@ footer .footer-data .footer-data-febox .footer-content-de-febox > span {
 .page .page-wrapper .page-wrapper-open .page-wrapper-open-form .page-wrapper-open-form-data form .page-wrapper-open-form-data-right textarea:focus {
   border-color: #d09552;
 }
+.page .page-wrapper .page-wrapper-open-products {
+  border-top: 1px solid #eee;
+  padding: 20px 0;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-head {
+  font-size: 18px;
+  font-weight: bold;
+  font-family: 'Open Sans';
+  text-transform: uppercase;
+  display: block;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data {
+  padding: 20px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flexbox;
+  display: -ms-flex;
+  display: flex;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item {
+  width: calc(20% - 16px);
+  margin-right: 20px;
+  cursor: pointer;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item:last-child {
+  margin-right: 0;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item:hover .page-wrapper-open-products-data-item-data strong {
+  color: #d09552;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item .page-wrapper-open-products-data-item-img {
+  width: 100%;
+  height: 140px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #eee;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item .page-wrapper-open-products-data-item-data {
+  padding: 10px 0;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+.page .page-wrapper .page-wrapper-open-products .page-wrapper-open-products-data .page-wrapper-open-products-data-item .page-wrapper-open-products-data-item-data strong {
+  font-family: 'Open Sans';
+  font-size: 14px;
+  font-weight: bold;
+  display: block;
+  text-transform: uppercase;
+  -webkit-transition: all 0.2s ease;
+  -moz-transition: all 0.2s ease;
+  -ms-transition: all 0.2s ease;
+  -o-transition: all 0.2s ease;
+  transition: all 0.2s ease;
+}
